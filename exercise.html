@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>HTML</title>
+        <meta charset="utf-8">     
+        <link href="style.css" rel="stylesheet">  
+        </head>
+<body>
+<div class="table">
+   <div id="box"></div>
+</div>
+<div class ="add-user">
+   
+<!-- Trigger/Open The Modal -->
+<button id="btn">Ajouter utilisateur</button>
+
+<!-- The Modal -->
+<div id="add-user" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <p style ="font-size: xx-large;font-weight: bold;">Ajout d'utilisateurs</p>
+    <form action="" id="my_form">
+    <div style="float:left;margin-right:70px; ">
+
+        <label for="firstName">Nom</label> <input id="firstName" type="text" />
+        <label for="userName">Nom d'utilisateur</label> <input id="userName" type="text" />
+        <label for="registrationNumber">Matricule</label> <input id="registrationNumber" type="text" />
+        
+    </div>
+    <div style="float:left;margin-right:70px;">
+      <label for="lastName">Prénom</label><input id="lastName" type="text" />
+      <label for="createdDate">Date de création</label> <input id="createdDate" type="text" />
+       
+    </div>
+    <div style="float:left;margin-right:70px;">
+      <label for="etat">Etat</label> <input id="etat" type="text" />
+        
+       
+    </div>
+  
+    <input type="button" value="Enregistrer" onclick="save();">
+ 
+  </form>
+  </div>
+
+</div>
+
+  
+</div>
+
+   <script src="file.js"></script>  
+</body>
+</html>
